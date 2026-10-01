@@ -16,3 +16,6 @@ export const QUARKUS_SUPER_HEROES_NAMESPACE = 'quarkus-super-heroes';
 export const QUARKUS_SUPER_HEROES_GCS_BASE_PATH_PREFIX = QUARKUS_SUPER_HEROES_NAMESPACE;
 export const INCIDENTS_NAMESPACE = 'incidents';
 export const INCIDENTS_GCS_BASE_PATH_PREFIX = 'customer0-incidents';
+export const ORCA_BENCH_NAMESPACE = 'orca-bench';
+export const ORCA_BENCH_GCS_BUCKET = 'nightshift-datasets';
+export const ORCA_BENCH_GCS_BASE_PATH_PREFIX = 'orca-bench/data-0418/2026-09-25/snapshots';

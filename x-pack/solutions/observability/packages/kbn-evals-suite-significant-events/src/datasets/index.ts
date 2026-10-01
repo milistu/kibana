@@ -8,6 +8,7 @@
 import type { GcsConfig } from '../data_generators/replay';
 import { bankOfAnthosDataset } from './bank_of_anthos';
 import { incidentsDataset } from './incidents';
+import { orcaBenchDataset } from './orca_bench';
 import { otelDemoDataset } from './otel_demo';
 import { quarkusSuperHeroesDataset } from './quarkus_super_heroes';
 import type { DatasetConfig, SnapshotSourceOverride } from './types';
@@ -20,6 +21,7 @@ const DATASETS: readonly DatasetConfig[] = [
   bankOfAnthosDataset,
   quarkusSuperHeroesDataset,
   incidentsDataset,
+  orcaBenchDataset,
 ];
 
 const ALL_DATASETS_SELECTOR = 'all';
